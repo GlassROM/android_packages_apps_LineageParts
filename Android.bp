@@ -32,6 +32,9 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
+    dex_preopt: {
+        enabled: false,
+    },
 
     static_libs: [
         "androidx.appcompat_appcompat",
